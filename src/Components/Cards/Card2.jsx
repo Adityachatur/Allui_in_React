@@ -7,11 +7,11 @@ import img4 from "../Images/card5.jpeg";
 
 const ImageCard = ({ src, alt }) => {
   return (
-    <div className="h-[450px] w-[40px] lg:w-[60px] lg:rounded-2xl rounded-md hover:w-[50vw] transition-all transform duration-500 ease-out">
+    <div className="h-[450px] w-[40px] lg:w-[60px] lg:rounded-2xl rounded-md hover:w-[50vw] transition-all transform duration-300">
       <img
         src={src}
         alt={alt}
-        className="h-[450px] lg:rounded-2xl rounded-md  hover:w-[50vw] object-cover overflow-hidden"
+        className="h-[450px] lg:rounded-2xl rounded-md  hover:w-[50vw] object-cover overflow-hidden transition-all transform duration-300"
       />
     </div>
   );
@@ -20,8 +20,13 @@ const ImageCard = ({ src, alt }) => {
 const Card2 = () => {
   return (
     <>
-      <div className="w-full" style={{backgroundColor:"#19242b"}}>
-        <h1 className="text-center lg:pt-20 py-10 text-3xl font-bold" style={{color:"#f8f9fa"}}>Card Hover Annimation</h1>
+      <div className="w-full" style={{ backgroundColor: "#19242b" }}>
+        <h1
+          className="text-center lg:pt-20 py-10 text-3xl font-bold"
+          style={{ color: "#f8f9fa" }}
+        >
+          Card Hover Annimation
+        </h1>
         <div className="lg:h-[90vh] h-screen flex justify-center  items-start space-x-2">
           <ImageCard src={img} alt="Card Image 1" />
           <ImageCard src={img1} alt="Card Image 2" />
