@@ -1,16 +1,16 @@
 import React from "react";
 
 // Import your images
-import img1 from "../Images/card1.png";
-import img2 from "../Images/card1.png";
-import img3 from "../Images/card1.png";
-import img4 from "../Images/card1.png";
-import img5 from "../Images/card1.png";
-import img6 from "../Images/card1.png";
-import img7 from "../Images/card1.png";
-import img8 from "../Images/card1.png";
-import img9 from "../Images/card1.png";
-import img10 from "../Images/card1.png";
+import img1 from "../Images/card1.jpg";
+import img2 from "../Images/card2.jpeg";
+import img3 from "../Images/card3.jpeg";
+import img4 from "../Images/card4.jpeg";
+import img5 from "../Images/card5.jpeg";
+import img6 from "../Images/card6.jpeg";
+import img7 from "../Images/card7.jpeg";
+import img8 from "../Images/card8.jpeg";
+import img9 from "../Images/card9.jpg";
+import img10 from "../Images/card10.jpg";
 
 const Card1 = () => {
   const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10];
@@ -32,7 +32,7 @@ const Card1 = () => {
           {items}
         </div>
         <div className="content">
-          <h1>Css Class</h1>
+          <h1>Construction Side</h1>
           <div className="model"></div>
         </div>
       </div>

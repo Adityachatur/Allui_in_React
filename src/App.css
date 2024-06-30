@@ -78,15 +78,14 @@ nav h1 {
 /* Card1 Css start */
 .Card1-banner {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   position: relative;
   overflow: hidden;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-
-
+  background-color: #002945;
 }
 
 .Card1-banner .Card1-slider {
@@ -130,7 +129,7 @@ nav h1 {
   transform: translateX(-50%);
   width: min(1400px, 100vw);
   height: max-content;
-  padding-bottom: 150px;
+  padding-bottom: 250px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -140,21 +139,22 @@ nav h1 {
 .Card1-banner .content h1 {
   font-size: 10em;
   line-height: 1em;
-  color: #25283b;
+  color: #25283b9a;
   font-weight: bold;
-  --webkit-text-stroke: 2px rgb(117, 22, 22);
   z-index: 30;
+  -webkit-text-stroke: 0.3px white;
 }
+
 
 
 .Card1-banner .content .model {
   position: absolute;
   width: 100%;
-  height: 70vh;
-  background-image: url('./Components/Images/Iphone.png');
-  bottom: 0;
+  height: 100vh;
+  background-image: url('./Components/Images/bgimg.png');
+  bottom: 50px;
   left: 0;
-  background-size: auto 130%;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: top center;
   z-index: 0;
