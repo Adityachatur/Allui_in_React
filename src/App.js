@@ -7,6 +7,7 @@ import AllSidebars from './Components/Sidebars/AllSidebars';
 import Sidebar1 from './Components/Sidebars/Sidebar1';
 import AllCards from './Components/Cards/AllCards';
 import Card1 from './Components/Cards/Card1';
+import Card2 from './Components/Cards/Card2';
 function App() {
   return (
     <>
@@ -19,6 +20,8 @@ function App() {
         <Route path='Navbar1' element={<Navbar1 />} />
         <Route path='Sidebar1' element={<Sidebar1 />} />
         <Route path='Card1' element={<Card1 />} />
+        <Route path='Card2' element={<Card2 />} />
+
       </Routes>
     </>
   );
