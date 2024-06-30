@@ -7,11 +7,11 @@ import img4 from "../Images/card5.jpeg";
 
 const ImageCard = ({ src, alt }) => {
   return (
-    <div className="h-[450px] w-[40px] lg:w-[60px] lg:rounded-2xl rounded-md hover:w-[50vw] transition-all transform duration-300">
+    <div className="h-[450px] w-[40px] lg:w-[60px] lg:rounded-2xl rounded-md hover:w-[50vw] transition-all transform">
       <img
         src={src}
         alt={alt}
-        className="h-[450px] lg:rounded-2xl rounded-md  hover:w-[50vw] object-cover overflow-hidden transition-all transform duration-300"
+        className="h-[450px] lg:rounded-2xl rounded-md  hover:w-[50vw] object-cover overflow-hidden transition-all transform"
       />
     </div>
   );
