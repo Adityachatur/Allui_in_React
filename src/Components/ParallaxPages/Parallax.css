@@ -2,11 +2,12 @@
     height: 100%;
     overflow: hidden;
     width: 100%;
+    background-color: black;
 }
 
 .banner {
     position: relative;
-    height: 160vh;
+    height: 130vh;
     width: 100%;
     overflow: hidden;
 }
@@ -35,11 +36,12 @@
 h1 {
     position: absolute;
     top: 30%;
-    left: 40%;
+    left: 30%;
     text-align: center;
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
     z-index: 3;
+    font-weight: bold;
 }
 
 
@@ -48,7 +50,7 @@ h1 {
 .tab {
     height: 100vh;
     padding: 2rem;
-    background-color: white;
+    background-color: #2e3943;
     transition: transform 0.2s ease-out, opacity 0.2s ease-out;
     opacity: 0;
     transform: translateY(50px);
@@ -84,22 +86,24 @@ h1 {
 .intro h2 {
     font-size: 18px;
     font-weight: bold;
-    color: black;
+    color: #f1faee;
 }
 
 .intro p {
     width: 700px;
     max-width: 100%;
+    font-size: 16px;
     text-align: center;
-    color: black;
+    color: #f1faee;
 }
 
 .intro button {
     background-color: red;
     padding: 10px 15px;
     border: 1px solid black;
-    color: white;
+    color: #f1faee;
     border-radius: 10px;
+    font-size: 16px;
 }
 
 .animation-show {
@@ -147,7 +151,7 @@ h1 {
 
     .intro button {
         padding: 8px 12px;
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 
@@ -167,7 +171,7 @@ h1 {
     }
 
     .intro h2 {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .intro p {
@@ -176,6 +180,6 @@ h1 {
 
     .intro button {
         padding: 6px 10px;
-        font-size: 12px;
+        font-size: 16px;
     }
 }

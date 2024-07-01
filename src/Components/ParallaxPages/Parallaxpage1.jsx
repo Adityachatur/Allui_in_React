@@ -7,7 +7,7 @@ const Parallaxpage1 = () => {
   const titleRef = useRef(null);
   const tabRef = useRef(null);
 
-  const [pageTitle, setPageTitle] = useState("Aditya Chatur");
+  const [pageTitle, setPageTitle] = useState("Green Land");
   useEffect(() => {
     const handleScroll = () => {
       const top = window.scrollY;
@@ -17,9 +17,9 @@ const Parallaxpage1 = () => {
       if (bg2Ref.current && titleRef.current) {
         // Update page title based on scroll position
         if (top > 50) {
-          setPageTitle("Welcome to React JS"); // Update title when scrolled past 500px
+          setPageTitle("Welcome to Green Land");
         } else {
-          setPageTitle("Aditya Chatur"); // Default title
+          setPageTitle("Green Land");
         }
 
         // Update transformations for bg2 and title
@@ -56,7 +56,7 @@ const Parallaxpage1 = () => {
     <div className="parallax-body">
       <div className={"banner"}>
         <div className="bg bg-1" ref={bg1Ref}></div>
-        <h1 ref={titleRef} className="transform duration-500 ease-in">
+        <h1 ref={titleRef} className="transform duration-500 ease-out">
           {pageTitle}
         </h1>
         <div className="bg bg-2" ref={bg2Ref}></div>
