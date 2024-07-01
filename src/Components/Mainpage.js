@@ -13,6 +13,7 @@ const Mainpage = () => {
                     { path: '/AllNavbars', label: 'All Navbars' },
                     { path: '/AllSidebars', label: 'All Sidebars' },
                     { path: '/AllCards', label: 'All Cards' },
+                    { path: '/AllParallaxpage', label: 'All Parallax page' },
                 ].map((item, index) => (
                     <div
                         key={index}

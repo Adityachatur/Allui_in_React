@@ -8,6 +8,8 @@ import Sidebar1 from './Components/Sidebars/Sidebar1';
 import AllCards from './Components/Cards/AllCards';
 import Card1 from './Components/Cards/Card1';
 import Card2 from './Components/Cards/Card2';
+import Parallaxpage1 from './Components/ParallaxPages/Parallaxpage1';
+import AllParallaxpage from './Components/ParallaxPages/AllParallaxpage';
 function App() {
   return (
     <>
@@ -17,10 +19,12 @@ function App() {
         <Route path='AllNavbars' element={<AllNavbars />} />
         <Route path='AllSidebars' element={<AllSidebars />} />
         <Route path='AllCards' element={<AllCards />} />
+        <Route path='AllParallaxpage' element={<AllParallaxpage />} />
         <Route path='Navbar1' element={<Navbar1 />} />
         <Route path='Sidebar1' element={<Sidebar1 />} />
         <Route path='Card1' element={<Card1 />} />
         <Route path='Card2' element={<Card2 />} />
+        <Route path='Parallaxpage1' element={<Parallaxpage1 />} />
 
       </Routes>
     </>
