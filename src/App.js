@@ -10,6 +10,7 @@ import Card1 from './Components/Cards/Card1';
 import Card2 from './Components/Cards/Card2';
 import Parallaxpage1 from './Components/ParallaxPages/Parallaxpage1';
 import AllParallaxpage from './Components/ParallaxPages/AllParallaxpage';
+import Plx2 from './Components/ParallaxPages/Plx2';
 function App() {
   return (
     <>
@@ -25,6 +26,7 @@ function App() {
         <Route path='Card1' element={<Card1 />} />
         <Route path='Card2' element={<Card2 />} />
         <Route path='Parallaxpage1' element={<Parallaxpage1 />} />
+        <Route path='Plx2' element={<Plx2 />} />
 
       </Routes>
     </>

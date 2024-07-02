@@ -56,7 +56,7 @@ const Parallaxpage1 = () => {
     <div className="parallax-body">
       <div className={"banner"}>
         <div className="bg bg-1" ref={bg1Ref}></div>
-        <h1 ref={titleRef} className="transform duration-500 ease-out">
+        <h1 ref={titleRef} className="transform duration-500 ease-out title">
           {pageTitle}
         </h1>
         <div className="bg bg-2" ref={bg2Ref}></div>
