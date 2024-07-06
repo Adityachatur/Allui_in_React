@@ -216,3 +216,84 @@ nav h1 {
 }
 
 /* Card1 css End */
+
+
+
+
+/* text animation start */
+.paragraph {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+
+.paragraph h1 {
+  position: relative;
+  margin: 20px 0 0;
+  font-size: 48px;
+  color: white;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.paragraph h1::before {
+  content: '';
+  position: absolute;
+  left: 120%;
+  width: 120%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent 0%, #000 1%, transparent 150%);
+  animation: animate 4.5s linear normal;
+  animation-delay: 1s;
+}
+
+@keyframes animate {
+  0% {
+    left: 100%;
+  }
+
+  100% {
+    left: -30%;
+  }
+}
+
+.paragraph h1 span {
+  color: red;
+}
+
+.paragraph video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20% 28%;
+  width: 120%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 2;
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+
+@media screen and (max-width:780px) {
+  .paragraph h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .paragraph h1 {
+    font-size: 20px;
+  }
+
+  .paragraph h1::before {
+    animation-delay: 2.2s;
+  }
+
+  .paragraph video {
+    padding: 50% 15%;
+  }
+}
+
+/* text animationend */

@@ -11,6 +11,9 @@ const AllCards = () => {
         <div className="bg-red-800 font-bold text-center">
           <Link to={"/card2"}>Card2</Link>
         </div>
+        <div className="bg-red-800 font-bold text-center">
+          <Link to={"/Gallery"}>Gallery</Link>
+        </div>
       </div>
     </div>
   );

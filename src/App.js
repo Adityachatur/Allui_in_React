@@ -11,6 +11,9 @@ import Card2 from './Components/Cards/Card2';
 import Parallaxpage1 from './Components/ParallaxPages/Parallaxpage1';
 import AllParallaxpage from './Components/ParallaxPages/AllParallaxpage';
 import Plx2 from './Components/ParallaxPages/Plx2';
+import Gallery from './Components/Cards/Gallery';
+import AllTextAni from './Components/TextsAni/AllTextAni';
+import Text1 from './Components/TextsAni/Text1';
 function App() {
   return (
     <>
@@ -21,12 +24,15 @@ function App() {
         <Route path='AllSidebars' element={<AllSidebars />} />
         <Route path='AllCards' element={<AllCards />} />
         <Route path='AllParallaxpage' element={<AllParallaxpage />} />
+        <Route path='AllTextAni' element={<AllTextAni />} />
         <Route path='Navbar1' element={<Navbar1 />} />
         <Route path='Sidebar1' element={<Sidebar1 />} />
         <Route path='Card1' element={<Card1 />} />
         <Route path='Card2' element={<Card2 />} />
+        <Route path='Gallery' element={<Gallery />} />
         <Route path='Parallaxpage1' element={<Parallaxpage1 />} />
         <Route path='Plx2' element={<Plx2 />} />
+        <Route path='text1' element={<Text1 />} />
 
       </Routes>
     </>

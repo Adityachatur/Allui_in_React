@@ -14,6 +14,7 @@ const Mainpage = () => {
                         { path: '/AllSidebars', label: 'All Sidebars' },
                         { path: '/AllCards', label: 'All Cards' },
                         { path: '/AllParallaxpage', label: 'All Parallax page' },
+                        { path: '/AllTextAni', label: 'All Text Animation' },
                     ].map((item, index) => (
                         <div
                             key={index}
