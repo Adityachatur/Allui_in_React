@@ -1,5 +1,5 @@
 <h1 align="center">Aditya Chatur Multimedia card</h1>
-<h3 align="center">This card shows creating the all top Projects using React js</h3>
+<h3 align="center">This card shows created the all top Projects using React js</h3>
 
 - Website-link [https://adityachaturmedia.vercel.app/](https://adityachaturmedia.vercel.app/)
 
