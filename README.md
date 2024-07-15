@@ -40,3 +40,8 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
+![adityachaturmedia vercel app_ (1)](https://github.com/user-attachments/assets/f1796371-8e2b-4a48-9f5c-5204e8fe002b)
+![adityachaturmedia vercel app_(iPhone 14 Pro Max)](https://github.com/user-attachments/assets/80446dbd-e996-433d-a197-50929bcd2e6c)
+![adityachaturmedia vercel app_](https://github.com/user-attachments/assets/2629fdad-ac24-4928-9840-ffac9e7e0444)
+
+
